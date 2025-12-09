@@ -5,7 +5,7 @@ export default function Footer() {
   return (
      <footer className="w-full border-t border-[#d8c7ad] bg-white mt-[144px] pt-[48px] pb-[48px]">
       <div className="max-w-7xl mx-auto flex justify-between items-center max-sm:flex-col max-sm:justify-center">
-        <div className="flex items-center gap-4 text-[22px]">
+        <div className="flex items-center gap-4 text-[22px] max">
           <div className="">
             <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M31.3407 8.31834C30.9718 6.9475 29.891 5.86694 28.5204 5.4978C26.0162 4.8125 15.9997 4.8125 15.9997 4.8125C15.9997 4.8125 5.98337 4.8125 3.47923 5.47168C2.135 5.84057 1.02783 6.94775 0.658933 8.31834C0 10.8222 0 16.0151 0 16.0151C0 16.0151 0 21.2341 0.658933 23.7118C1.02807 25.0824 2.10863 26.1632 3.47948 26.5324C6.00974 27.2177 15.9999 27.2177 15.9999 27.2177C15.9999 27.2177 26.0162 27.2177 28.5204 26.5585C29.8912 26.1896 30.9718 25.1088 31.3409 23.7382C31.9999 21.2341 31.9999 16.0415 31.9999 16.0415C31.9999 16.0415 32.0262 10.8222 31.3407 8.31834Z" fill="#FF0000"/>
@@ -89,11 +89,11 @@ export default function Footer() {
 
           </div>
         </div>
-        <div className="text-center md:text-left text-[18px] flex flex-col gap-4 max-sm:justify-center">
+        <div className="text-center max-sm:mt-[34px] md:text-left text-[18px] flex flex-col gap-4 max-sm:justify-center">
           <p>ИП Твердохлеб Е.В.</p>
           <p>ИНН 920158336626</p>
         </div>
-        <div className="text-right text-[18px] max-sm:text-center  ">
+        <div className="text-right text-[18px] max-sm:text-center max-sm:mt-[32px] max-sm:font-medium  ">
           <p className='mb-4'>Политика конфиденциальности</p>
           <p>Copyright (c) 2024</p>
           <div className="flex items-center justify-end gap-2 mt-2 max-sm:justify-center">
