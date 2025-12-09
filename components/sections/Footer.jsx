@@ -5,6 +5,7 @@ export default function Footer() {
   return (
      <footer className="w-full border-t border-[#d8c7ad] bg-white mt-[144px] pt-[48px] pb-[48px]">
       <div className="max-w-7xl mx-auto flex justify-between items-center max-sm:flex-col max-sm:justify-center">
+        <div className='flex gap-14 max-sm:flex-col max-sm:gap-[24px]'>
         <div className="flex items-center gap-4 text-[22px] max">
           <div className="">
             <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -92,6 +93,7 @@ export default function Footer() {
         <div className="text-center max-sm:mt-[34px] md:text-left text-[18px] flex flex-col gap-4 max-sm:justify-center">
           <p>ИП Твердохлеб Е.В.</p>
           <p>ИНН 920158336626</p>
+        </div>
         </div>
         <div className="text-right text-[18px] max-sm:text-center max-sm:mt-[32px] max-sm:font-medium  ">
           <p className='mb-4'>Политика конфиденциальности</p>
